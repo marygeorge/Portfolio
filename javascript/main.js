@@ -71,15 +71,15 @@ $("#resume").on("click",function(){
 });
 
 $("#lol").on("click",function(){
-	window.location.href="html/Contact.html";
+	window.location.href="Contact.html";
 });
 
 $("#projects").on("click",function(){
-	window.location.href="html/Projects.html";
+	window.location.href="Projects.html";
 });
 
 $("#hobby").on("click",function(){
-	window.location.href="html/Hobbies.html";
+	window.location.href="Hobbies.html";
 });
 
 $("#linkedin").on("click",function(){
@@ -91,5 +91,5 @@ $("#github").on("click",function(){
 });
 
 $("#Me").on("click",function(){
-	window.location.href="html/AboutMe.html";
+	window.location.href="AboutMe.html";
 });
