@@ -1,24 +1,5 @@
 
-//ripple();
-
-// function ripple(){
-// 	var boxes=$(".box");
-// 	//console.log(boxes);
-// 	boxes[1].style.background="black";
-// 	console.log(boxes[1].style.background);
-// 	wait(5000);
-// 	boxes[1].style.background="transparent";
-	
-// 	console.log(boxes[1].style.background);
-// 	// for(var i=0; i<boxes.length; i++)
-// 	// {
-// 	// 	console.log(boxes[i]);
-// 	// 	$(".box").trigger("hover");
-// 	// 	wait(300);
-		
-// 	// }
-// }
-$(".photoimage").attr("src","./headshots/1.jpg");	
+$(".photoimage").attr("src","headshots/1.jpg");	
 function wait(s){
    var start = new Date().getTime();
    var end = start;
@@ -38,7 +19,7 @@ function changeProfilePhotos()
 		{no=1;}
 		else{no=no+1}
 		//var imgNo=no+1;
-		s="./headshots/"+no+".jpg"
+		s="headshots/"+no+".jpg"
 			
 		$(".photoimage").attr("src",s);
 	},500);
@@ -46,9 +27,8 @@ function changeProfilePhotos()
 
 function stopProfilePhotos()
 {
-//	profileInterval.clearInterval();
 	clearInterval(profileInterval);
-$(".photoimage").attr("src","./headshots/1.jpg");	
+$(".photoimage").attr("src","headshots/1.jpg");	
 }
 
 $("#aboutMe").on("click",function(){
