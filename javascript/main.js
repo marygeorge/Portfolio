@@ -19,7 +19,7 @@ function changeProfilePhotos()
 		{no=1;}
 		else{no=no+1}
 		//var imgNo=no+1;
-		s="headshots/"+no+".jpg"
+		s="images/headshots/"+no.toString()+".JPG"
 			
 		$(".photoimage").attr("src",s);
 	},500);
@@ -28,7 +28,7 @@ function changeProfilePhotos()
 function stopProfilePhotos()
 {
 	clearInterval(profileInterval);
-$(".photoimage").attr("src","headshots/1.jpg");	
+$(".photoimage").attr("src","images/headshots/1.jpg");	
 }
 
 $("#aboutMe").on("click",function(){
