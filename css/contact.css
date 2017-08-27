@@ -1,0 +1,43 @@
+body{
+    background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  /*background-size: cover;*/
+     background-size: 100% 100%;
+  background-repeat: no-repeat-y; 
+    color: grey;
+    font-family: 'Kalam', cursive;
+    font-weight: bold; 
+    font-size: large;
+    text-align: justify;
+    }
+#contactInfo{
+    position: absolute;
+    top: 20%;
+    left: 70%;
+    color: #336600;
+}
+
+#contact,#first_name,#email,#textarea1{
+     color: #336600;
+}
+#contactDiv{
+    position: fixed;
+    align-self: center;
+    text-align: justify;
+    top:13%;
+    left: 15%;
+    width:70%;
+    font-size: 120%;
+    color: #336600;
+    /*text-shadow: -1px 0 #00cc00, 0 1px #00cc00, 1px 0 #00cc00, 0 -1px #00cc00;*/
+}
+
+
+#submitForm{
+    background-color: #336600;
+    color: #000;
+    position: fixed;
+    left: 40%;
+}

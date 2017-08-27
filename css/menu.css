@@ -1,0 +1,30 @@
+
+.menu{
+    position: fixed;
+    height: 10%;
+    width:80%;
+    top:1%;
+    left: 2%;
+}
+.menuItem{
+    font-family: 'Fondamento', cursive;
+    font-size: x-large;
+    color: grey;
+    margin: 2%;
+ 
+}
+.menuItem:hover{
+     color: #336600;
+    text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*#landPage{
+    position: fixed;
+    top: 90%;
+    left: 1%;
+    color: #9f9f9f;
+}*/

@@ -1,0 +1,76 @@
+body{
+    background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+     background-size: 100% 100%;
+  background-repeat: no-repeat-y; 
+    color: grey;
+    font-family: 'Kalam', cursive;
+    font-weight: bold; 
+    font-size: large;
+    text-align: justify;
+    }
+#Hobbies{
+     color: #336600;
+}
+a {
+    text-decoration: none;
+}
+hr
+{
+    display: block;
+    height:2px;
+    border: 0;
+    border-top: 1px solid #336600;
+    margin: 1em 0;
+    padding: 0; 
+ color: #336600;
+}
+
+.fullPage{
+
+    position:absolute;
+    top: 20%;
+    width:100%;
+}
+
+.photosPhotos{
+    position: float;
+    text-align: center;
+}
+
+.sewPhotos{
+    position: float;
+    text-align: center;
+}
+
+.photoImage{
+    width:100%;
+    height: 100%;
+    border-style: double;
+    border-width: 10px;
+    border-color: #336600
+}
+
+.photoImage .sew{
+    border-style: groove;
+    /*border-width: 10px;
+    border-color: #336600*/
+}
+
+.carousel{
+    /*left:5%;*/
+    height:300px;
+}
+
+
+@media only screen  and (max-device-height : 736px)  
+{ 
+ 
+    .menuItem{
+    font-family: 'Fondamento', cursive;
+    font-size: small;
+}
+
+}
