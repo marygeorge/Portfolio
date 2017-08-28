@@ -13,8 +13,8 @@ function changeProfilePhotos()
 {
 	profileInterval=setInterval(function(){
 		var s=$(".photoimage").attr("src");
-		var no=parseInt(s.charAt(12));
-		console.log(no);
+		var no=parseInt(s.charAt(17));
+		//console.log(s.charAt(17));
 		if(no===9)
 		{no=1;}
 		else{no=no+1}
