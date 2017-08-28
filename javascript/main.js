@@ -1,5 +1,5 @@
 
-$(".photoimage").attr("src","headshots/1.jpg");	
+$(".photoimage").attr("src","images/headshots/1.jpg");	
 function wait(s){
    var start = new Date().getTime();
    var end = start;
