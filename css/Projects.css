@@ -1,36 +1,63 @@
 body{
     background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  /*background-size: cover;*/
-     background-size: 100% 100%;
-  background-repeat: no-repeat-y; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    /*background-repeat: repeat-y; */
     color: grey;
     font-family: 'Kalam', cursive;
     font-weight: bold; 
     font-size: large;
     text-align: justify;
     }
+
+hr
+{
+    /*display: block;*/
+    /*height:2px;
+    border: 2px;
+    margin: 1em 0;
+    padding: 0; */
+    border-top: 2px solid #336600;
+    color: #336600;
+}
+
 #Projects{
     color: #336600;
 }
 
-.projectImageDiv{
+.allProjects{
     position: absolute;
-    top:20%;
+    top:30%;
     left: 10%;
+    width: 80%;
+}
+.projectImageDiv{
+    /*position: absolute;*/
+    float:left;
+    clear: left;
+    margin:10px;
+    padding:10px;
 }
 
 .projectImage{
     position: relative;
+     float: left;
+    margin: 10px;
 }
 
+.description{
+    position: relative;
+    float: left;
+    width:55%;
+    margin-left: 5%;
+    text-align: justify;
+}
 
 .projectImage:hover .projectImageDesc{
   opacity: .80;
 }
-
 
 .projectImageDesc{
   position: absolute;
@@ -57,4 +84,21 @@ body{
 td{
     /*margin: 10px;*/
     padding: 20px;
+}
+
+
+@media only screen  and (max-device-width : 414px)
+{
+.description{
+    position: relative;
+    float: left;
+    width:75%;
+    margin-left: 7%;
+    text-align: justify;
+}
+.allProjects{
+    position: absolute;
+    top:15%;
+    left: 10%;
+}
 }

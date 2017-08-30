@@ -1,6 +1,6 @@
 
 .menu{
-    position: fixed;
+    position: absolute;
     height: 10%;
     width:80%;
     top:1%;
@@ -11,7 +11,7 @@
     font-size: x-large;
     color: grey;
     margin: 2%;
- 
+    white-space: nowrap;
 }
 .menuItem:hover{
      color: #336600;
@@ -22,9 +22,37 @@ a {
     text-decoration: none;
 }
 
-/*#landPage{
-    position: fixed;
-    top: 90%;
-    left: 1%;
-    color: #9f9f9f;
-}*/
+#landPage
+{
+    position: absolute;
+    top: 0%;
+    left:85%;
+    font-size: medium;
+}
+
+@media only screen  and (max-device-width : 415px)  
+{ 
+ 
+    .menuItem{
+    font-size: x-small;
+    }
+    
+    #landPage
+    {
+        font-size: x-small;
+    }
+
+}
+
+@media only screen  and (max-device-height : 415px)  
+{ 
+ 
+    .menuItem{
+        font-size: x-small;
+    }
+    #landPage
+    {
+        font-size: x-small;
+    }
+
+}

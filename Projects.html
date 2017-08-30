@@ -6,68 +6,94 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Projects</title>
 <link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/Projects.css">
 <link href="https://fonts.googleapis.com/css?family=Fondamento|Merienda+One|Kalam" rel="stylesheet">
-
-<!--<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Luckiest+Guy|Sigmar+One|Vast+Shadow" rel="stylesheet">-->
-
-    <!-- Compiled and minified CSS -->
-  <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">-->
-    <link rel="stylesheet" type="text/css" href="css/Projects.css">
-    <!--<link rel="stylesheet" type="text/css" href="../css/menu.css">-->
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>  -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>-->
 </head>
 <body>
-    <div w3-include-html="menu.html"></div>
     <div class="menu">
                 <a href="AboutMe.html" class="menuItem" id="aboutMe">About Me</a>
                 <a href="Projects.html" class="menuItem" id="Projects">Projects</a>
                 <a href="Hobbies.html" class="menuItem" id="Hobbies">Hobbies</a>
                 <a href="Contact.html" class="menuItem" id="contact">Get in Touch</a>
-                <a href="index.html" class="menuItem" id="landPage" >go to main page</a>
     </div>
-    </div>
-
-    <table class="projectImageDiv">
-        <tr>
-            <td>
-                <div class="projectImage">
-                <a href="https://morning-mesa-41718.herokuapp.com/" target="_blank" >
+    <!--<a href="index.html" class="menuItem" id="landPage" >Main page</a>-->
+<div class="allProjects">
+ <hr>
+    <div class="projectImageDiv">
+        <div class="projectImage">
+            <a href="https://morning-mesa-41718.herokuapp.com/" target="_blank" >
                 <img id="ftlod" src="ProjectImages/Fortheloveofdog.png" />   
                 <div  id="ftlodDesc" class="projectImageDesc" >
                     <font class="projDesc">Social app for Dog lovers.</font>
                 </div>
-                </a>
-                </div>
-                <div><a href="https://github.com/marygeorge/ForTheLoveOfDog" target="_blank">GitHub</a></div>
-            </td>
-            <td>
-                <div class="projectImage">
-                <a href="https://sandjie.github.io/Project1/" target="_blank">
+            </a>
+  
+        </div>    
+        <div class="description">
+            <h3>For The Love Of Dogs</h3>
+            <p>'For the love of dogs' is a social media outlet for dog lovers.<br>
+             It is developed using MVC design pattern in Node and Express web server, backed by a MySQL Database with a Sequelize ORM.
+            </p>
+            <p align="center" style="font-size:12px">
+                See the code in <a href="https://github.com/marygeorge/ForTheLoveOfDog" target="_blank">GitHub</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Click on the logo to see it in action
+            </p>
+        </div>
+    </div>
+ <hr>       
+    <div class="projectImageDiv">
+    
+        <div class="projectImage">
+            <a href="https://sandjie.github.io/Project1/" target="_blank">
                 <img id="eb" src="ProjectImages/EatBurn.png" />
                 <div  id="edDesc" class="projectImageDesc" >
                     <font class="projDesc">Stay fit while you eat what you want.</font>
                 </div>
-                </a>
-                </div>
-                <div><a href="https://github.com/Sandjie/Project1" target="_blank">GitHub</a></div>
-            </td>
-            <td>
-                <div class="projectImage">
-                <a href="https://marygeorge.github.io/hangman/hangman.html" target="_blank">
+            </a>
+            <!--<div>
+            </div>-->
+        </div>
+        <div class="description">
+            <h3>Eat & Burn</h3>
+            <p>'Eat & Burn' is an app formulated to help users stay healthy while they eat their favoorite food. 
+                It shows you the calories their meal contains and provide workout options to burn it <br>
+               Bing web search and nutritionix API play a big part in this app. Front end uses Materialize and Firebase is used at the back end.
+            </p>
+            <p align="center" style="font-size:12px">
+                See the code in   <a href="https://github.com/Sandjie/Project1" target="_blank">GitHub</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Click on the logo to see it in action
+            </p>
+        </div>
+    </div>
+ <hr>       
+    <div class="projectImageDiv">
+        <div class="projectImage">
+            <a href="https://marygeorge.github.io/hangman/hangman.html" target="_blank">
                 <img id="hm" src="ProjectImages/Hangman.png" />
                 <div  id="hmDesc" class="projectImageDesc" >
                     <font class="projDesc">Play Hangman</font>
                 </div>
-                </a>
-                </div>
-                <div><a href="https://github.com/marygeorge/hangman" target="_blank">GitHub</a></div>
-            </td>
-        </tr>
-    </table>
- 
+            </a>
+        </div>
+        <div class="description">
+            <h3>Hangman</h3>
+            <p>This is a basic hangman game<br>
+                Front end have original graphics.
+                Guess the letters of the hidden word to solve the puzzle.
+                Each word can take upto 13 wrong guesses.
+                If you can't solve a word it will be presented to you again at a later stage.
+            </p>
+            <p align="center" style="font-size:12px">
+                See the code in <a href="https://github.com/marygeorge/hangman" target="_blank">GitHub</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                Click on the logo to see it in action
+            </p>
+        </div>
+    </div> 
+</div>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <!--<script src="../javascript/projects.js"></script>-->
 </body>

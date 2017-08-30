@@ -1,10 +1,10 @@
 body{
     background: url(../images/zigzagwool-contact.png) no-repeat center center fixed;
     -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-     background-size: 100% 100%;
-  background-repeat: no-repeat-y; 
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat-y; 
     color: grey;
     font-family: 'Kalam', cursive;
     font-weight: bold; 
@@ -23,7 +23,7 @@ a {
     position: fixed;
     align-self: center;
     text-align: justify;
-    top:10%;
+    top:12%;
     left: 15%;
     width:70%;
     font-size: 120%;
@@ -31,12 +31,23 @@ a {
     /*text-shadow: -1px 0 #00cc00, 0 1px #00cc00, 1px 0 #00cc00, 0 -1px #00cc00;*/
 }
 
-@media only screen  and (max-device-height : 736px)  
+@media only screen  and (max-device-width : 413px)  
 { 
  
-    .menuItem{
+    #story{
     font-family: 'Fondamento', cursive;
     font-size: small;
+    top:17%;
+    left: 5%;
+    }
+
 }
 
+@media only screen  and (max-device-height : 413px)  
+{ 
+    #story{
+    font-family: 'Fondamento', cursive;
+    font-size: small;
+    top:17%;
+    }
 }
