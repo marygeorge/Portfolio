@@ -1,12 +1,13 @@
 
 // $(".photoimage").attr("src","images/headshots/1.jpg");	
-// function wait(s){
-//    var start = new Date().getTime();
-//    var end = start;
-//    while(end < start + (s*1000)) {
-//      end = new Date().getTime();
-//   }
-// }
+
+function wait(s){
+   var start = new Date().getTime();
+   var end = start;
+   while(end < start + (s*1000)) {
+     end = new Date().getTime();
+  }
+}
 var profileInterval;
 $(".photoimage").hover(changeProfilePhotos,stopProfilePhotos);
 function changeProfilePhotos()
@@ -28,7 +29,7 @@ function changeProfilePhotos()
 function stopProfilePhotos()
 {
 	clearInterval(profileInterval);
-$(".photoimage").attr("src","images/headshots/1.jpg");	
+$(".photoimage").attr("src","images/headshots/1.JPG");	
 }
 
 $("#aboutMe").on("click",function(){
