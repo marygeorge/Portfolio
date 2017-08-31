@@ -1,12 +1,12 @@
 
-$(".photoimage").attr("src","images/headshots/1.jpg");	
-function wait(s){
-   var start = new Date().getTime();
-   var end = start;
-   while(end < start + (s*1000)) {
-     end = new Date().getTime();
-  }
-}
+// $(".photoimage").attr("src","images/headshots/1.jpg");	
+// function wait(s){
+//    var start = new Date().getTime();
+//    var end = start;
+//    while(end < start + (s*1000)) {
+//      end = new Date().getTime();
+//   }
+// }
 var profileInterval;
 $(".photoimage").hover(changeProfilePhotos,stopProfilePhotos);
 function changeProfilePhotos()
