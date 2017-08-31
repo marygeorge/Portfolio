@@ -42,8 +42,8 @@ hr
 }
 
 .sewPhotos{
-    position: absolute;
     text-align: center;
+    left: 5px;
 }
 
 .photoImage{
@@ -73,15 +73,5 @@ hr
  font{
      font-size: small;
  }
- /*.carousel{
-         height: 270px;
- }
-.carousel-item{
-    height:50%;
-    margin: 0px;
-    padding: 0px;
-}*/
-
-
- 
+  
 }
